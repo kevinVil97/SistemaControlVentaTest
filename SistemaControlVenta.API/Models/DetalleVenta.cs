@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SistemaControlVenta.API.Models
 {
-    public partial class DetalleVentum
+    public partial class DetalleVenta
     {
         public int IdDetalleVenta { get; set; }
         public int? IdVenta { get; set; }
@@ -13,6 +13,6 @@ namespace SistemaControlVenta.API.Models
         public decimal? Total { get; set; }
 
         public virtual Producto? IdProductoNavigation { get; set; }
-        public virtual Ventum? IdVentaNavigation { get; set; }
+        public virtual Venta? IdVentaNavigation { get; set; }
     }
 }

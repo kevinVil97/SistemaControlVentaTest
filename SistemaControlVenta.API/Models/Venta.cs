@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace SistemaControlVenta.API.Models
 {
-    public partial class Ventum
+    public partial class Venta
     {
-        public Ventum()
+        public Venta()
         {
             DetalleVenta = new HashSet<DetalleVenta>();
         }

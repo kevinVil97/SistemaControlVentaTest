@@ -65,3 +65,5 @@ C:\Users\kevin\Desktop\prueba\ApiSistemaControlVenta\SistemaControlVenta.API\obj
 C:\Users\kevin\Desktop\prueba\ApiSistemaControlVenta\SistemaControlVenta.API\obj\Debug\net6.0\SistemaControlVenta.API.pdb
 C:\Users\kevin\Desktop\prueba\ApiSistemaControlVenta\SistemaControlVenta.API\obj\Debug\net6.0\SistemaControlVenta.API.genruntimeconfig.cache
 C:\Users\kevin\Desktop\prueba\ApiSistemaControlVenta\SistemaControlVenta.API\obj\Debug\net6.0\ref\SistemaControlVenta.API.dll
+C:\Users\kevin\Desktop\prueba\ApiSistemaControlVenta\SistemaControlVenta.API\obj\Debug\net6.0\SistemaControlVenta.API.RazorAssemblyInfo.cache
+C:\Users\kevin\Desktop\prueba\ApiSistemaControlVenta\SistemaControlVenta.API\obj\Debug\net6.0\SistemaControlVenta.API.RazorAssemblyInfo.cs
