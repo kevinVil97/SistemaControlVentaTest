@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "",
+"LaunchCommand": "",
+"WorkingDirectory": "C:\\Users\\kevin\\Desktop\\prueba\\ApiSistemaControlVenta\\SistemaControlVenta.API",
+"MaxTimeoutInSeconds": "120"
+}
+}
