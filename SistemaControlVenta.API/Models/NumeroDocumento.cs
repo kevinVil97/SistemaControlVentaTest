@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SistemaControlVenta.API.Models
+namespace SistemaControlVenta.Models
 {
     public partial class NumeroDocumento
     {

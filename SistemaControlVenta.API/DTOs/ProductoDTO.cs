@@ -1,4 +1,4 @@
-﻿namespace SistemaControlVenta.API.DTOs
+﻿namespace SistemaControlVenta.DTOs
 {
     public class ProductoDTO
     {

@@ -1,4 +1,4 @@
-namespace SistemaControlVenta.API
+namespace SistemaControlVenta
 {
     public class WeatherForecast
     {

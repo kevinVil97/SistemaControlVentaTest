@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using SistemaControlVenta.API.DTOs;
-using SistemaControlVenta.API.Models;
+using SistemaControlVenta.DTOs;
+using SistemaControlVenta.Models;
 using System.Globalization;
 
-namespace SistemaControlVenta.API.Utilidades
+namespace SistemaControlVenta.Utilidades
 {
     public class AutoMapperProfile : Profile
     {

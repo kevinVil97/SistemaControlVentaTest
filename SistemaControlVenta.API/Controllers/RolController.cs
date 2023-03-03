@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SistemaControlVenta.API.DTOs;
-using SistemaControlVenta.API.Repository.Contratos;
+using SistemaControlVenta.DTOs;
+using SistemaControlVenta.Repository.Contratos;
 using AutoMapper;
-using SistemaControlVenta.API.Models;
+using SistemaControlVenta.Models;
 using Microsoft.EntityFrameworkCore;
-using SistemaControlVenta.API.Utilidades;
+using SistemaControlVenta.Utilidades;
 
-namespace SistemaControlVenta.API.Controllers
+namespace SistemaControlVenta.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

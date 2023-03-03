@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "+R5Jylub6v83s6MHbzkL7LMc3BgxNYWt41nCf2VKglU=",
-  "Source": "SistemaControlVenta.API",
-  "BasePath": "_content/SistemaControlVenta.API",
+  "Hash": "DFoNB+5Kwe6+LObj2Aq2HxgPoh+cPTTVL27DEQJDqBA=",
+  "Source": "SistemaControlVenta",
+  "BasePath": "_content/SistemaControlVenta",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -1,4 +1,4 @@
-﻿namespace SistemaControlVenta.API.Utilidades
+﻿namespace SistemaControlVenta.Utilidades
 {
     public class Response<T>
     {

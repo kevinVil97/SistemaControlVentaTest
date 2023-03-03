@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace SistemaControlVenta.API.Models
+namespace SistemaControlVenta.Models
 {
     public partial class DBVentaAngularContext : DbContext
     {

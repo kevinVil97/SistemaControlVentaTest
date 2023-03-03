@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SistemaControlVenta.API.Models;
-using SistemaControlVenta.API.Repository.Contratos;
+using SistemaControlVenta.Models;
+using SistemaControlVenta.Repository.Contratos;
 
-namespace SistemaControlVenta.API.Repository.Implementacion
+namespace SistemaControlVenta.Repository.Implementacion
 {
     public class CategoriaRepositorio : ICategoriaRepositorio
     {

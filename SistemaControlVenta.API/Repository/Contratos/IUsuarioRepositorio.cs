@@ -1,7 +1,7 @@
-﻿using SistemaControlVenta.API.Models;
+﻿using SistemaControlVenta.Models;
 using System.Linq.Expressions;
 
-namespace SistemaControlVenta.API.Repository.Contratos
+namespace SistemaControlVenta.Repository.Contratos
 {
     public interface IUsuarioRepositorio
     {

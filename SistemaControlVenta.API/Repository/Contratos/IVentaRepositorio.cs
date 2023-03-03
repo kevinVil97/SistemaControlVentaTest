@@ -1,6 +1,6 @@
-﻿using SistemaControlVenta.API.Models;
+﻿using SistemaControlVenta.Models;
 
-namespace SistemaControlVenta.API.Repository.Contratos
+namespace SistemaControlVenta.Repository.Contratos
 {
     public interface IVentaRepositorio
     {

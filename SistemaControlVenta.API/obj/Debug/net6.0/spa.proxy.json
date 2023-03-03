@@ -1,8 +1,8 @@
 {
 "SpaProxyServer": {
-"ServerUrl": "",
-"LaunchCommand": "",
-"WorkingDirectory": "C:\\Users\\kevin\\Desktop\\prueba\\ApiSistemaControlVenta\\SistemaControlVenta.API",
+"ServerUrl": "http://localhost:44496",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\kevin\\Desktop\\prueba\\ApiSistemaControlVenta\\SistemaControlVenta.API\\ClientApp\\",
 "MaxTimeoutInSeconds": "120"
 }
 }

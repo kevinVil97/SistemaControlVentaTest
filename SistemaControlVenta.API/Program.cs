@@ -1,13 +1,14 @@
 using Microsoft.EntityFrameworkCore;
-using SistemaControlVenta.API.Models;
-using SistemaControlVenta.API.Repository.Contratos;
-using SistemaControlVenta.API.Repository.Implementacion;
-using SistemaControlVenta.API.Utilidades;
+using SistemaControlVenta.Models;
+using SistemaControlVenta.Repository.Contratos;
+using SistemaControlVenta.Repository.Implementacion;
+using SistemaControlVenta.Utilidades;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
+
 
 builder.Services.AddDbContext<DBVentaAngularContext>(options =>
 {
@@ -22,21 +23,21 @@ builder.Services.AddScoped<IProductoRepositorio, ProductoRepositorio>();
 builder.Services.AddScoped<IVentaRepositorio, VentaRepositorio>();
 builder.Services.AddScoped<IDashBoardRepositorio, DashBoardRepositorio>();
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (!app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
 }
 
-app.UseAuthorization();
+app.UseStaticFiles();
+app.UseRouting();
 
-app.MapControllers();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller}/{action=Index}/{id?}");
+
+app.MapFallbackToFile("index.html"); ;
 
 app.Run();
